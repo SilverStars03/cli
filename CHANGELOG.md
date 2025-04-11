@@ -1,5 +1,20 @@
 # Changelog
 
+## [11.3.1](https://github.com/npm/cli/compare/v11.3.0...v11.3.1) (2025-04-11)
+### Bug Fixes
+* [`db8f5da`](https://github.com/npm/cli/commit/db8f5da886326ae40d44a8cceedb99e2e6a00855) [#8110](https://github.com/npm/cli/pull/8110) outdated: add dependent location in long output (#8110) (@milaninfy, @wraithgar)
+### Chores
+* [`7eca19c`](https://github.com/npm/cli/commit/7eca19cb5ddc32688a8e331d5468d58f14684bff) [#8215](https://github.com/npm/cli/pull/8215) update workflow permissions for updating Node PR (@owlstronaut)
+
+
+### Dependencies
+
+* [workspace](https://github.com/npm/cli/releases/tag/arborist-v9.0.3): `@npmcli/arborist@9.0.3`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmdiff-v8.0.3): `libnpmdiff@8.0.3`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmexec-v10.1.2): `libnpmexec@10.1.2`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmfund-v7.0.3): `libnpmfund@7.0.3`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmpack-v9.0.3): `libnpmpack@9.0.3`
+
 ## [11.3.0](https://github.com/npm/cli/compare/v11.2.0...v11.3.0) (2025-04-08)
 ### Features
 * [`b306d25`](https://github.com/npm/cli/commit/b306d25df2f2e6ae75fd4f6657e0858b6dd71c43) [#8129](https://github.com/npm/cli/pull/8129) add `node-gyp` as actual config (@wraithgar)
